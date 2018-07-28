@@ -3,7 +3,7 @@ import logging
 
 
 class PhoneSpider(scrapy.Spider):
-    name = "quotes"
+    name = "phones"
 
     start_urls = [
             'https://www.devicespecifications.com/en',
