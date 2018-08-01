@@ -22,15 +22,18 @@ I'm not sure how the website implement the search function. But in this case, I 
 The simplest way come to my mind is to crawl all phone model name and their alias name, then use our own way to search. 
 
 
-Then I chose Scrapy to crawl the website and store the specs in a json file.
+Then I chose [Scrapy](https://github.com/scrapy/scrapy) to crawl the website and store the specs in a json file.
 
 
 The next step is to implement the search function. The fisrt idea of course is to put those data into a database. But in that case, I still need a lot of work to build maybe a GUI or something to access those data.
 
 
-So I decided to use more easy way to handle this, just put them into a excel file. Even though I still want to put those data into database (maybe play mysql with python or put them online with firebase) and build a GUI (a website or app).
+So I decided to use more easy way to handle this, just put them into a excel file.
 
 
 ## What
 
 
+
+### TODO
+Even though I still want to put those data into database (maybe play mysql with python or put them online with firebase) and build a GUI (a website or app).
