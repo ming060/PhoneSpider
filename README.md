@@ -32,8 +32,16 @@ So I decided to use more easy way to handle this, just put them into a excel fil
 
 
 ## What
+Actually, the result so far is not quiet well as I expected.
 
+
+Although now I can do the search with any keywords I want, it takes too much time to go through on too many models in this way.
+I might need to give weight to different models based on maybe lanched year, popularity, market share, etc.
+
+![](resources/excel_search_demo.gif)
 
 
 ### TODO
-Even though I still want to put those data into database (maybe play mysql with python or put them online with firebase) and build a GUI (a website or app).
+* Improve usability by building a GUI (a website or app).
+* Improve search performance (Store data into database).
+* Improve search accuracy (adding weight to phone information).
